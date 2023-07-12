@@ -1,0 +1,175 @@
+/*------------- Landing Page--------------------------- */
+
+
+.title_design{
+  position: -webkit-sticky;
+  position: sticky;
+  top: -5px; 
+   z-index: 2; 
+  /* //align-items: center; */
+   font-family: 'Trebuchet MS';
+   text-align: center; 
+   padding: 2%;
+   background-color:  lightgrey ;
+
+         }
+
+
+
+   .landingPgLink:hover{
+    color: rgb(73, 127, 244);
+   }           
+              
+
+/* ---------------------Chemist Signup page --------------*/
+        .title_sticky{
+          position: -webkit-sticky;
+          position: sticky;
+          top: -5px; 
+          z-index: 2; 
+          font-family: 'Trebuchet MS';
+          text-align: center; 
+          padding: 2%;
+          background-color: lightgrey;
+               }
+
+      .SignUpSubmitBtn{
+          background-color:slategray ;
+          width:15%;
+                }
+
+      .SignUpCancelBtn{
+
+        background-color:slategray ;
+        width:15%;
+                    }
+
+      .sign_txtField
+             {
+              margin-Left: 500px;
+              width:40%;
+              margin-Top:5px;
+
+             }
+
+        
+        
+
+
+
+/* -------------------Login page ------------------ */
+
+
+
+.loginPageTitle{
+
+  position: -webkit-sticky;
+  position: sticky;
+  top: -5px; 
+  z-index: 2; 
+  font-family: 'Trebuchet MS';
+  text-align: center; 
+  padding: 2%;
+  background-color: lightgray;
+}
+
+
+/* ---------------Retrive page---------------- */
+
+
+      .tableColumn tr,th,td{
+       
+         border:1px solid rgb(8, 8, 167);
+                 }
+      .tableData td{
+           border:1px solid rgb(8, 8, 167);
+                   }
+      .tableColumn th{
+         border:1px solid rgb(8, 8, 167);
+          }
+      .tableColumn{
+          margin-left: 8%;
+          padding: 6%;
+          text-align: center;
+         }
+
+/* ---------------About Page ------------ */
+
+.abtHeader{
+  padding: 2%;
+  background-color: steelblue;
+     
+          }
+.abtTitle{
+   color:rgb(20, 19, 19);
+   text-align:end; 
+  
+        }
+
+.abtLink{
+    color:royalblue;
+    font-size:30px;
+    margin-left:75%;
+    margin-top:1%;
+      }
+
+.loginSubButton{
+          margin-left: 20%;
+        }
+
+/* ----------Admin Home Page --------------*/
+        .adminHomeList{
+         font-size: 150px;
+            }
+
+/* 
+    #table_head{
+     visibility: hidden; 
+     }   */
+
+/* ----------Admin Home Page - Operator Page --------------*/
+   
+.AdminOperLink{
+ background-color: antiquewhite;
+ padding:4%; 
+ border: 1px solid red;
+ text-decoration:none;
+
+}
+.addUserDesign{
+  background-color: rgb(20, 231, 231);
+}
+
+/* ----------Operator Home Page --------------*/
+
+.operatorHomeList{
+  font-size: 150px;
+     }
+
+
+ #reject_reason{
+
+      visibility: hidden;
+     } 
+
+ .tableHeaderDesign{
+   border:1px solid gray;
+   text-align: center;  
+}
+
+  .tableDataDesign{
+     border:1px solid gray;
+     text-align: right;
+     
+     }
+
+    
+
+     /* --try toggle--
+
+
+     const [rejectReason, setRejectReason] = useState(false);
+
+     const display_reason = () => {
+      setRejectReason(!setRejectReason);
+    }; */
